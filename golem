@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class karakter{
+    public:
+    string adi;
+    int can;
+    void kosma(){
+        cout<<adi<<"koşuyor"<<endl;
+      
+    }
+};
+int main()
+{
+    karakter karakter1;
+    karakter1.adi = "mini pekka";
+    karakter1.can = 4200;
+    
+karakter karakter2;
+    karakter2.adi = "iksir golemi";
+    karakter2.can = 8500;
+    
+    cout<<"karakter1:"<<karakter1.adi<<endl;
+       cout<<"karakter2:"<<karakter2.adi<<endl;
+       
+       karakter1.kosma();
+       karakter2.kosma();
+
+    return 0;
+}
